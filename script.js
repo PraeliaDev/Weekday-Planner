@@ -46,11 +46,70 @@ if (timeNow > 9 ) {
   } else if (timeNow < 9) {
     $('.time8').addClass('future');
   }
+  
+  if (timeNow > 10 ) {
+    $('.hour10').addClass('past');
+  } else if (timeNow === 10) {
+    $('.time8').addClass('now');
+  } else if (timeNow < 10) {
+    $('.time8').addClass('future');
+  }
+  
+  if (timeNow > 11 ) {
+    $('.hour11').addClass('past');
+  } else if (timeNow === 11) {
+    $('.time8').addClass('now');
+  } else if (timeNow < 11) {
+    $('.time8').addClass('future');
+  }
 
+  if (timeNow > 12 ) {
+    $('.hour12').addClass('past');
+  } else if (timeNow === 12) {
+    $('.time8').addClass('now');
+  } else if (timeNow < 12) {
+    $('.time8').addClass('future');
+  }
 
+  if (timeNow > 13 ) {
+    $('.hour13').addClass('past');
+  } else if (timeNow === 13) {
+    $('.time8').addClass('now');
+  } else if (timeNow < 13) {
+    $('.time8').addClass('future');
+  }
 
+  if (timeNow > 14 ) {
+    $('.hour14').addClass('past');
+  } else if (timeNow === 14) {
+    $('.time8').addClass('now');
+  } else if (timeNow < 14) {
+    $('.time8').addClass('future');
+  }
 
+  if (timeNow > 15 ) {
+    $('.hour15').addClass('past');
+  } else if (timeNow === 15) {
+    $('.time8').addClass('now');
+  } else if (timeNow < 15) {
+    $('.time8').addClass('future');
+  }
 
+  if (timeNow > 16 ) {
+    $('.hour16').addClass('past');
+  } else if (timeNow === 16) {
+    $('.time8').addClass('now');
+  } else if (timeNow < 16) {
+    $('.time8').addClass('future');
+  }
+
+  if (timeNow > 17 ) {
+    $('.hour17').addClass('past');
+  } else if (timeNow === 17) {
+    $('.time8').addClass('now');
+  } else if (timeNow < 17) {
+    $('.time8').addClass('future');
+  }
 
 
 
